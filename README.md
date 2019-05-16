@@ -7,12 +7,12 @@ I have modified them slightly to make them work asynchrnously while integrating 
 * Make sure Docker is installed in your machine or you can see the Docker file to see the build and run commands
 * Build the image using build.sh
 * Start the server/docker using run.sh
-* The server start in port 1211. But can be changes while running the docker in `run.sh`
+* The server starts in port 1211. But can be changed while running the docker in `run.sh`
 
 ### Testing
 Use `curl` or `httpclient` or `browser`
 <br>
-`curl http://localhost:1211/score5?sequence=CCAgtacaa`  --> returns __-4.94209399585755__
+`curl http://localhost:1211/score5?sequence=CCAgtacaa`  --> returns __-4.94209399585755__<br>
 `curl http://localhost:1211/score3?sequence=ctctactactatctatctagatc`  --> returns __6.70694694535309__
 
 <br>
